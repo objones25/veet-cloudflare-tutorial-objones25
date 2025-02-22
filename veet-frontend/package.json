@@ -1,0 +1,14 @@
+{
+	"name": "veet",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler pages deploy",
+		"dev": "wrangler pages dev",
+		"start": "wrangler pages dev"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.1.0",
+		"wrangler": "^3.0.0"
+	}
+}
